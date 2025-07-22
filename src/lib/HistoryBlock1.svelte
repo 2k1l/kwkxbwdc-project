@@ -39,12 +39,12 @@
 <style>
     .container{
         margin: 50px;
-        height: 300px;
+        height: 400px;
         transition: .3s ease;
     }
     .card{
         width: 400px;
-        height: auto;
+        height: 100%;
         perspective: none;
         margin: auto;
         position: relative;
