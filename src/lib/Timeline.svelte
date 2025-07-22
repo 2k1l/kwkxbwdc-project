@@ -26,41 +26,42 @@
             <HistoryBlock1 uniqueId="colonial"
              title="During Colonization"
              fronttext="America has a deep rooted history in displacement of native people. Brooklyn (King &#39; s county) is no exception; the native tribe of Lenape people were forced to migrate West by the Dutch, the first European settlers of Long Island. The name &#34;Brooklyn&#34; originates from the Dutch settlement of &#34Breukelen&#34."
-             backtext="BACKTEXT"
+             backtext="Black people where forced over due to slavery leading to the original black population. Althrough treated better than a normal slave; they still suffered through difficulties."
              {callback}
              {options}
              />
         </div>
         <div class="left-img"></div>
-        <div class="postcivilwar">
-            <HistoryBlock1 uniqueId="postcivilwar"
-             title="During Colonization"
-             fronttext="America has a deep rooted history in displacement of native people. Brooklyn (King &#39; s county) is no exception; the native tribe of Lenape people were forced to migrate West by the Dutch, the first European settlers of Long Island. The name &#34;Brooklyn&#34; originates from the Dutch settlement of &#34Breukelen&#34."
-             backtext="BACKTEXT"
+       <div class="nineteethCentury">
+            <HistoryBlock1 uniqueId="nineteethCentury"
+                title="Nineteenth Century"
+                fronttext="FRONTTEXT"
+                backtext="BACKTEXT"
+                {callback}
+                {options}
+                />
+        </div>
+    </div>
+    <div class="right">
+        <div class="hoverover">
+            <HistoryBlock1 uniqueId="hoverover"
+             title="Hover Over"
+             fronttext="to reveal text!"
+             backtext="Here's the hidden text!"
              {callback}
              {options}
              />
         </div>
-    </div>
-    <div class="right">
-        <div class="postrevolution">
-            <HistoryBlock1 uniqueId="postrevolution"
-                title="During Colonization"
-                fronttext="America has a deep rooted history in displacement of native people. Brooklyn (King &#39; s county) is no exception; the native tribe of Lenape people were forced to migrate West by the Dutch, the first European settlers of Long Island. The name &#34;Brooklyn&#34; originates from the Dutch settlement of &#34Breukelen&#34."
+        <div class="postcivilwar">
+            <HistoryBlock1 uniqueId="postcivilwar"
+                title="Post Civil War"
+                fronttext="FRONTTEXT"
                 backtext="BACKTEXT"
                 {callback}
                 {options}
-                />
+             />
         </div>
-        <div class="nineteethCentury">
-            <HistoryBlock1 uniqueId="nineteethCentury"
-                title="During Colonization"
-                fronttext="America has a deep rooted history in displacement of native people. Brooklyn (King &#39; s county) is no exception; the native tribe of Lenape people were forced to migrate West by the Dutch, the first European settlers of Long Island. The name &#34;Brooklyn&#34; originates from the Dutch settlement of &#34Breukelen&#34."
-                backtext="BACKTEXT"
-                {callback}
-                {options}
-                />
-        </div>
+    
     </div>
 </div>
 
@@ -76,6 +77,7 @@
     }
 
     .container {
+        padding-top: 25px;
         width: 100%;
         height: 500vh;
         display: flex;
@@ -96,9 +98,11 @@
         
     }
     .left{
+        margin-top: 50vh;
         order: 0;
     }
     .right{
+        margin-bottom: 25vh;
         order: 1;
     }
 
